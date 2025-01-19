@@ -3,7 +3,7 @@
 FILES_PATH=${FILES_PATH:-./}
 
 download_web() {
-    DOWNLOAD_LINK="https://github.com/SagerNet/sing-box/releases/download/v1.3-beta11/sing-box-1.3-beta11-linux-amd64.tar.gz"
+    DOWNLOAD_LINK="https://github.com/SagerNet/sing-box/releases/download/v1.5-beta11/sing-box-1.5-beta11-linux-amd64.tar.gz"
     if ! wget -qO "$ZIP_FILE" "$DOWNLOAD_LINK"; then
         echo 'error: Download failed! Please check your network or try again.'
         return 1
